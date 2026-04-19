@@ -91,7 +91,7 @@ random_seed = st.sidebar.number_input(
 
 x_train, x_val, y_train, y_val = generate_dataset(
     n_samples=n_samples,
-    noise_std=noise_std,
+    noise_std=noise_std*0.5,
     function_name=true_function_name,
     test_size=test_size,
     random_seed=int(random_seed),
