@@ -1,66 +1,66 @@
-# \# ML Playgrounds
+\# ML Playgrounds
 
-# 
 
-# A collection of interactive tools designed to make machine learning concepts intuitive and observable.
 
-# 
+A collection of interactive tools designed to make machine learning concepts intuitive and observable.
 
-# \## Projects
 
-# 
 
-# \### 🎯 ML Best Fit Playground
+\## Projects
 
-# Explore underfitting, overfitting, and generalization using polynomial regression.
 
-# 
 
-# \- Adjustable model complexity
+\### 🎯 ML Best Fit Playground
 
-# \- Multiple true-function presets
+Explore underfitting, overfitting, and generalization using polynomial regression.
 
-# \- Noise and sample size controls
 
-# \- Complexity sweep visualization
 
-# 
+\- Adjustable model complexity
 
-# 👉 \[View project](./ml-best-fit-playground)
+\- Multiple true-function presets
 
-# 
+\- Noise and sample size controls
 
-# \---
+\- Complexity sweep visualization
 
-# 
 
-# \## Goal
 
-# 
+👉 \[View project](./ml-best-fit-playground)
 
-# These projects aim to:
 
-# \- build strong intuition for ML concepts
 
-# \- demonstrate model behavior interactively
+\---
 
-# \- bridge theory and practical understanding
 
-# 
 
-# \---
+\## Goal
 
-# 
 
-# \## Tech Stack
 
-# 
+These projects aim to:
 
-# \- Python
+\- build strong intuition for ML concepts
 
-# \- Streamlit
+\- demonstrate model behaviour interactively
 
-# \- Plotly
+\- bridge theory and practical understanding
 
-# \- scikit-learn
+
+
+\---
+
+
+
+\## Tech Stack
+
+
+
+\- Python
+
+\- Streamlit
+
+\- Plotly
+
+\- scikit-learn
 
