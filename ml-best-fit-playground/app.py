@@ -53,14 +53,14 @@ true_function_name = st.sidebar.selectbox(
 degree = st.sidebar.slider(
     "Polynomial degree",
     min_value=1,
-    max_value=20,
-    value=3,
+    max_value=16,
+    value=4,
     help="Low degree can underfit. High degree can overfit.",
 )
 
 n_samples = st.sidebar.slider(
     "Number of samples",
-    min_value=18,
+    min_value=20,
     max_value=100,
     value=60,
     step=10,
