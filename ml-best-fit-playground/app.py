@@ -53,16 +53,16 @@ true_function_name = st.sidebar.selectbox(
 degree = st.sidebar.slider(
     "Polynomial degree",
     min_value=1,
-    max_value=15,
+    max_value=20,
     value=3,
     help="Low degree can underfit. High degree can overfit.",
 )
 
 n_samples = st.sidebar.slider(
     "Number of samples",
-    min_value=20,
-    max_value=300,
-    value=80,
+    min_value=18,
+    max_value=100,
+    value=60,
     step=10,
 )
 
@@ -86,7 +86,7 @@ random_seed = st.sidebar.number_input(
     "Random seed",
     min_value=0,
     max_value=9999,
-    value=42,
+    value=1337,
 )
 
 x_train, x_val, y_train, y_val = generate_dataset(
